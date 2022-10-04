@@ -96,7 +96,7 @@ sudo apt install m4
 Then you can create a 'switch' for the most recent OCaml release by executing
 
 ```bash
-opam switch create 4.13.1
+opam switch create 4.14.0
 eval `opam config env`
 ```
 
@@ -107,7 +107,7 @@ environment variables. Once, the installation has completed, you can
 execute `ocaml`, which starts an OCaml REPL session:
 
 ```ocaml
-        OCaml version 4.13.1
+        OCaml version 4.14.0
 
 #
 ```
