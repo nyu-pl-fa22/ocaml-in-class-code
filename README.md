@@ -112,8 +112,14 @@ execute `ocaml`, which starts an OCaml REPL session:
 #
 ```
 
-If you want to evaluate an OCaml expression in the REPL, you need to
-terminate it by a double semicolon `;;` and then press `Enter`:
+You can also install an alternative OCaml REPL called `utop` that provides additional functionality. To install `utop` execute:
+```bash
+opam install -y utop
+```
+
+One you have started a REPL session, you can use it to evaluate OCAML
+expressions. In the REPL, you need to terminate each expression by a
+double semicolon `;;` and then press `Enter`:
 
 ```ocaml
 # 3 + 1 ;;
@@ -133,7 +139,7 @@ install the OCaml library manager
 [ocamlfind](http://projects.camlcity.org/projects/findlib.html), the
 OCaml build tool [Dune](https://github.com/ocaml/dune),
 and the OCaml unit testing framework
-[OUnit](http://ounit.forge.ocamlcore.org/). You can do this via opam:
+[OUnit](https://github.com/gildor478/ounit). You can do this via opam:
 
 ```bash
 opam install -y ocamlfind
